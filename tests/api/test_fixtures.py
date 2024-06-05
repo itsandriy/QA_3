@@ -13,17 +13,17 @@ class User:
         self.second_name = ''
 
 
-    def test_change_name():
-        user = User()
-        user.create()
+def test_change_name():
+    user = User()
+    user.create()
 
-        assert user.name == 'Sergii'
-        user.remove()
+    assert user.name == 'Sergii'
+    user.remove()
 
 
-    def test_change_second_name():
-        user = User()
-        user.create()
+def test_change_second_name():
+    user = User()
+    user.create()
 
-        assert user.second_name == 'Butenko'
-        user.remove()
+    assert user.second_name == 'Butenko'
+    user.remove()
